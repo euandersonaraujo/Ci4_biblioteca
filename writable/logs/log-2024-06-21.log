@@ -1,0 +1,25 @@
+INFO - 2024-06-21 15:32:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 15:32:40 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "_partials/navbarlogin.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Login.php(16): view()
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Login->index()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/opt/lampp/htdocs/ci4_biblioteca/public/index.php')
+INFO - 2024-06-21 15:33:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 15:33:21 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "loguin/index.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Login.php(24): view()
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Login->index()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/opt/lampp/htdocs/ci4_biblioteca/public/index.php')
+INFO - 2024-06-21 15:33:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 15:34:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 15:35:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
